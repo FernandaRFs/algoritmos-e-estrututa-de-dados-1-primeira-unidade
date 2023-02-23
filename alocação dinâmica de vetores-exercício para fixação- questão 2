@@ -39,7 +39,7 @@ certo=certo+1;//if para saber quantas questões o aluno acertou.
  certo=0;// certo recebe 0 para ser usada no próximo aluno.
 }
 for(c=0;c<nalu;c++){
-    if (nota[c]>7){  //for para saber a quantidade de alunos que passaram.
+    if (nota[c]>=6){  //for para saber a quantidade de alunos que passaram.
         pas=pas+1;
     }
 }cont=1;//cont é inicializado para ser usado no próximo printf.
