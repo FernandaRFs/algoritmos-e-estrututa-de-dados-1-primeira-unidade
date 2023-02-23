@@ -96,9 +96,11 @@ if(tur==NULL){
 }
 for(c=0;c<3;c++){
     tur[c].vagas=0;
-    for(j=0;j<3;j++){                   // for utilizado para zerar as variaveis de vagas e as variaveis de média
-        for(i=0;i<1;i++){
-            tur[c].alunos[j].media=0;
+    for(j=0;j<3;j++){                   // for utilizado para zerar as variaveis de vagas, variaveis de média e nota
+       tur[c].alunos[j].media=0;
+        for(i=0;i<3;i++){
+            tur[c].alunos[j].nota[i] = 0;
+            
         }
     }
 }
